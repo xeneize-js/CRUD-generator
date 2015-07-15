@@ -1,0 +1,34 @@
+{
+    "name": "mitulgolakiya/laravel-api-generator",
+    "description": "Laravel API/Scaffold/CRUD Generator from just one command with including Controller, Repository, Model, Migrations, routes.php update.",
+    "keywords": [
+        "laravel",
+        "api",
+        "model",
+        "migration",
+        "scaffold",
+        "CRUD",
+        "generator"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitul Golakiya",
+            "email": "me@mitul.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravelcollective/html": "~5.0",
+        "laracasts/flash": "~1.3",
+        "bosnadev/repositories": "^0.8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Mitul/Generator/Constants/Constants.php"
+        ],
+        "psr-4": {
+            "Mitul\\": "src/Mitul/"
+        }
+    }
+}
