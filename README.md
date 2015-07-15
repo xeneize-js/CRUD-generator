@@ -1,8 +1,5 @@
 Laravel API/Scaffold/CRUD Generator (Laravel5)
 =======================
-[![Latest Stable Version](https://poser.pugx.org/mitulgolakiya/laravel-api-generator/v/stable)](https://packagist.org/packages/mitulgolakiya/laravel-api-generator) [![Total Downloads](https://poser.pugx.org/mitulgolakiya/laravel-api-generator/downloads)](https://packagist.org/packages/mitulgolakiya/laravel-api-generator) [![Monthly Downloads](https://poser.pugx.org/mitulgolakiya/laravel-api-generator/d/monthly)](https://packagist.org/packages/mitulgolakiya/laravel-api-generator) [![Daily Downloads](https://poser.pugx.org/mitulgolakiya/laravel-api-generator/d/daily)](https://packagist.org/packages/mitulgolakiya/laravel-api-generator) [![Latest Unstable Version](https://poser.pugx.org/mitulgolakiya/laravel-api-generator/v/unstable)](https://packagist.org/packages/mitulgolakiya/laravel-api-generator) [![License](https://poser.pugx.org/mitulgolakiya/laravel-api-generator/license)](https://packagist.org/packages/mitulgolakiya/laravel-api-generator)
-
-### For Laravel 5.1, check out [master branch](https://github.com/mitulgolakiya/laravel-api-generator/tree/master)
 
 I enjoy creating API's and I have worked on many projects that required them. But the problem I always faced was setting up all the boilerplate code. For example each end point needs a migration, model, controller, repository, and on and on. I wanted a way to streamline this process and that is how this package was born.
 
@@ -46,9 +43,6 @@ So we removed all extra Exception files. so you need to remove those things from
         @throws AppValidationException
         @throws RecordNotFoundException
 
-5. Enjoy Upgrade :)
-
-[Upgrade Guide for older versions](https://github.com/mitulgolakiya/laravel-api-generator/blob/1.3/Upgrade_Guide.md).
 
 Steps to Get Started
 ---------------------
@@ -233,42 +227,5 @@ You have to pass option ```--search``` with command. e.g.
 
          php artisan mitul.generator:scaffold_api Post --search"
 
-
-Screenshots
-------------
-
-### Command Execution
-![Image of Command Execution]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7RbTRvTEswQ0tfOEU)
-
-### Generated Files & routes.php
-![Image of Generated Files]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7RZ1VMcXlsM1Z2MDg)
-
-### Migration File
-![Image of Migration File]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7RMWtnN1RxUzdmTUE)
-
-### Model File
-![Image of Model File]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7RRUJfdHE4MVRaeXM)
-
-### Repository File
-![Image of Repository File]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7ROUdNVTVORm5nQ1E)
-
-### Controller File
-![Image of Controller File]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7RREVacVlOZDhxNDQ)
-
-### View Files
-![Image of View Files]
-(http://drive.google.com/uc?export=view&id=0B5kWGBdVjC7RQW5FOXExOFhEbms)
-
-
-Credits
---------
-
-This API Generator is created by [Mitul Golakiya](https://github.com/mitulgolakiya).
 
 **Bugs & Forks are welcomed :)**
